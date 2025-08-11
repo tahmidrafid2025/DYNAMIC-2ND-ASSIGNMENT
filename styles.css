@@ -120,3 +120,30 @@ margin-right: auto;
 
 
 
+.container2{
+display: flex;
+max-width: 1140px;
+margin-top: 210px;
+margin-bottom: 133px;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+
+}
+
+.vallage{
+color:rgba(0, 0, 0, 0.5);
+ margin-left: 25px;
+}
+
+
+.lekha{
+
+  width: 540px;
+  margin-left: 60px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+
+
