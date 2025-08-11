@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar{
+
+display: flex;
+  max-width: 1140px;
+margin-top: 30px;
+margin-bottom: 120px;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+align-items: center;
+}
+.dud{
+  list-style: none;
+display: flex;
+justify-content:space-between;
+width: 415px;
+}
+
+
+.nai{
+text-decoration: none;
+
+}
+.tumi{
+
+  color:rgba(37, 36, 50, 1);
+font-weight: bold;
+}
+.ami{
+color: rgba(137, 135, 161, 1);
+
+}
+.kmn{
+  color: black;
+}
+.container{
+max-width: 1140px;
+margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.muli{
+  color:#E95A08;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nola,.inter{
+  text-align: center;
+}
+.inter{
+
+  margin-top:10px;
+}
+.kuku{
+
+  font-weight: medium;
+
+}
+.bold{
+
+  font-weight: bolder;
+  ;
+}
+
+  
+
+.btn{
+
+    background-color:#E95A08;
+    color: whitesmoke;
+    border: none;
+    padding:19px 80px;
+    width: 100%;
+}
+
+.lewra{
+width: 270px;
+height: 484;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+
+}
+
+.grid{
+  display: grid;
+max-width: 1140px;
+grid-template-columns: repeat(4, 1fr);
+
+gap: 20px;
+margin-top: 49px;
+margin-bottom: 210px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
