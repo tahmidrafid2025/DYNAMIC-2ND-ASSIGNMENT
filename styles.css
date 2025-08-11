@@ -10,6 +10,16 @@
     "wdth" 100;
 }
 
+.abba{
+position: relative;
+top: -8px;
+
+}
+.icon{
+width: 30px;
+height: 25px;
+
+}
 .navbar{
 
 display: flex;
@@ -60,11 +70,16 @@ margin: 0 auto;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter{
+.inter,.salam{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+.salam{
+
+
+  color: rgba(0, 0, 0, 0.5);
 }
 .nola,.inter{
   text-align: center;
@@ -123,6 +138,7 @@ margin-right: auto;
 .container2{
 display: flex;
 max-width: 1140px;
+height: 597px;
 margin-top: 210px;
 margin-bottom: 133px;
 margin-left: auto;
