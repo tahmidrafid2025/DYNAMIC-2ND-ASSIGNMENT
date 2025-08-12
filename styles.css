@@ -12,13 +12,14 @@
 
 .abba{
 position: relative;
-top: -8px;
+top: -9px;
 
 }
 .icon{
 width: 30px;
 height: 25px;
-
+position: relative;
+top:-2px
 }
 .navbar{
 
@@ -175,7 +176,7 @@ height: 521px;
 .container3{
 
 margin-top: 133px;
-margin-bottom: 120px;
+
 
 }
 .mona{
@@ -192,7 +193,11 @@ display: grid;
   grid-template-columns: 367px 753px;
   grid-template-rows: repeat(2,1fr);
   
-  margin: 120px auto;
+  margin-top: 105px;
+  margin-bottom: 134px;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .jnina{
@@ -239,7 +244,38 @@ display: grid;
 }
 
 
-h4,.cdi{
+h4,.cdi,.color{
 
   color: white;
+}
+
+.lastsec{
+
+width: 100vw;
+height: 33.5rem;
+background-image: url(assets/news-letter-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+text-align: center;
+    justify-content: center;
+  align-items: center;
+
+}
+.color{
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.input{
+
+  padding-left: 10px;
+  width: 40.25rem;
+  height:3.5rem;
+  
+}
+.kaw{
+
+  height: 56px;
+  width: 11.625rem;
 }
