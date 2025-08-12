@@ -71,7 +71,7 @@ margin: 0 auto;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter,.salam,.olu{
+.inter,.salam,.olu,.section5{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -310,11 +310,8 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
 }
-.aha{
 
-  font-size: smaller;
-  color:rgba(0, 0, 0, 0.5);
-}
+
 .olu{
     color:rgba(0, 0, 0, 0.5);
 }
@@ -324,3 +321,15 @@ position: relative;
 top: -60px;
 
 }
+.section5 a{
+
+  text-decoration: none;
+   color:rgba(0, 0, 0, 0.5); 
+    font-size: smaller;
+  }
+}
+
+.aha{
+
+
+   
