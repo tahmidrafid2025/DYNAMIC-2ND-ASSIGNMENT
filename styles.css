@@ -71,7 +71,7 @@ margin: 0 auto;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter,.salam{
+.inter,.salam,.olu{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -278,4 +278,49 @@ text-align: center;
 
   height: 56px;
   width: 11.625rem;
+}
+.nunu{
+
+  margin-left: 25px;
+
+
+}
+.bal{
+
+  position:relative;
+  top: -7px;
+}
+
+.section5{
+
+
+  display: grid;
+  grid-template-columns:200px 200px;
+  column-gap:70px;
+  row-gap: 15px;
+
+  
+}
+
+.footer{
+
+  max-width: 1120px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aha{
+
+  font-size: smaller;
+  color:rgba(0, 0, 0, 0.5);
+}
+.olu{
+    color:rgba(0, 0, 0, 0.5);
+}
+.section6{
+
+position: relative;
+top: -60px;
+
 }
