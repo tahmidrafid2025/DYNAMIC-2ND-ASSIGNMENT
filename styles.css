@@ -141,7 +141,7 @@ display: flex;
 max-width: 1140px;
 height: 597px;
 margin-top: 210px;
-margin-bottom: 133px;
+margin-bottom:20px;
 margin-left: auto;
 margin-right: auto;
 justify-content: space-between;
@@ -325,11 +325,75 @@ top: -60px;
 
   text-decoration: none;
    color:rgba(0, 0, 0, 0.5); 
-    font-size: smaller;
-  }
+    font-size: smaller}
+
+    /* Mobile: hide the first 3 nav items */
+@media screen and (max-width:576px) {
+
+
+
+.body{
+
+
+  margin: 15px;
 }
 
-.aha{
+
+  .navbar .dud > li:nth-child(-n+3) {
+    visibility: hidden;
+  }
+
+  .abba{
+    top:12px
+  }
+  .icon{
+
+    top: 20px;
+  }
+  .container{
+    flex-direction:column-reverse;
+  }
+  .grid{
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+    .container2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;                 
+    height: auto !important;   
+    align-items: flex-start; 
+    padding-bottom: 16px;
+  }
+  
+  
+  .gridcon{
 
 
-   
+    grid-template-rows: repeat(3,1fr);
+    margin: 50px;
+  }
+  .jnina{
+
+    grid-row: 1/2;
+    width: 90vw;
+  }
+  .jni{
+
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 90vw;
+  }.kno{
+
+    grid-row: 3/4;width: 90vw;
+  }
+  .input{
+
+    width: 50%;
+  }
+  .kaw{
+
+    width: 20%;
+  }
+}
